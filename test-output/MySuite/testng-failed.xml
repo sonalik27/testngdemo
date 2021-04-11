@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MySuite]" parallel="none">
+  <parameter name="password" value="password123"/>
+  <parameter name="username" value="abc@gmail.com"/>
+  <test name="testname(failed)" parallel="methods" preserve-order="false">
+    <parameter name="password" value="password123"/>
+    <parameter name="username" value="abc@gmail.com"/>
+    <classes>
+      <class name="simplilearn.test.testsuit.ParallelTest">
+        <methods>
+          <include name="firefoxTest"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

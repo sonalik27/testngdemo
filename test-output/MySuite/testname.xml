@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="LAPTOP-MVI3L03L" name="simplilearn.test.testsuit.ParallelTest" tests="2" failures="1" timestamp="11 Apr 2021 14:55:02 GMT" time="27.027" errors="0">
+  <testcase name="firefoxTest" time="0.107" classname="simplilearn.test.testsuit.ParallelTest">
+    <failure type="java.lang.IllegalStateException" message="The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases">
+      <![CDATA[java.lang.IllegalStateException: The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:847)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:134)
+	at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:44)
+	at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:167)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:190)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:147)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
+	at simplilearn.test.testsuit.ParallelTest.firefoxTest(ParallelTest.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 10 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="chromeTest" time="27.011" classname="simplilearn.test.testsuit.ParallelTest"/>
+</testsuite>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]" verbose="0">
+  <test parallel="none" name="Test(failed)" preserve-order="false">
+    <classes>
+      <class name="simplilearn.test.testsuit.LoginTest">
+        <methods>
+          <include name="Login"/>
+        </methods>
+      </class>
+      <class name="simplilearn.test.testsuit.Testcase2">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterSuit"/>
+          <include name="beforeSuit"/>
+          <include name="afterTest"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
